@@ -1,3 +1,4 @@
+[Reference Video](https://www.youtube.com/watch?v=AB0gaAg9jwI&list=PLt4nG7RVVk1h9lxOYSOGI9pcP3I5oblbx&index=5)
 Design Patterns - 
     1. Singleton Design Pattern - 
         Creational design pattern - a way that creates objects in a manner that's suitable for the situation.
