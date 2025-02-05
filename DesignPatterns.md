@@ -18,11 +18,13 @@ Design Patterns -
     3. Builder Design Pattern - 
         creational design pattern 
         required when many parameters used in constructor
-        offload the work to a builder class passing the parameters to the builder class and for optional and changing values use setter to set them. Afterwards calling build to get the instance of the original required class
+        offload the work to a builder class passing the parameters to the builder class and for optional 
+        and changing values use setter to set them. Afterwards calling build to get the instance of the original required class
     4. Prototype Design Pattern
         Creational design pattern
         to have multiple objects for a same class
-        the class that is required needs to implement the Clonable class and Override the clone function to return the new instance of the current class with same data
+        the class that is required needs to implement the Clonable class and Override the clone function to return 
+        the new instance of the current class with same data
     5. Proxy Design Pattern
         Structural design pattern - improves the structure the code
         where we want access-control there it is used
@@ -34,7 +36,8 @@ Design Patterns -
         structural
         mainly like subscribing to topic and notifing all the users that have been subscribed for specific updates
     8. IoC Principle & Dependency Inversion Principle
-        IoC - Inversion of control - here what we do is that new Class object should not be created directly insted should be getting it from another class to remove the tight coupling between them
+        IoC - Inversion of control - here what we do is that new Class object should not be created directly 
+        insted should be getting it from another class to remove the tight coupling between them
         to invert the control now we will make a data factory class through which we will return the new class object from a static method 
         Dependency inversion priciple - high level module should not depend on low level module rather it should depend on the abstraction
         so where we were getting the new Class object retured that should me cpaturing the interface of the class whose object is getting created
