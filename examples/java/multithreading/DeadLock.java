@@ -46,10 +46,14 @@ public class DeadLock {
             // }
             try {
                 Thread.sleep(10);
+                System.out.println("it has come thread 2 wait over");
+                return;
             } catch (InterruptedException e) {
                 throw new RuntimeException(e);
+            }finally {
+                System.out.println("yoyo");
             }
-            System.out.println("Thread 2 completed lock2");
+            // System.out.println("Thread 2 completed lock2");
         }
     }
 
